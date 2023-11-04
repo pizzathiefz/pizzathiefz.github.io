@@ -82,6 +82,9 @@ tail_includes:
     {{ content }}
   </div>
 
+  <applause-button class="mb6" color=rgb(195,122,234) url={{ page.url | absolute_url }}>
+  </applause-button>
+
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
     {% if page.categories.size > 0 %}
