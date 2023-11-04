@@ -16,9 +16,9 @@ comments: true
 
 ### 그간 글또 관련 글들
 
-- [글또 6기 다짐글](https://pizza-thief.github.io/posts/geultto-6-start/)
-- [글또 6기와 2021년 회고](https://pizza-thief.github.io/posts/geultto-6-2021)
-- [글또 7기 회고](https://pizza-thief.github.io/posts/geultto-7)
+- [글또 6기 다짐글](https://pizzathiefz.github.io/posts/geultto-6-start/)
+- [글또 6기와 2021년 회고](https://pizzathiefz.github.io/posts/geultto-6-2021)
+- [글또 7기 회고](https://pizzathiefz.github.io/posts/geultto-7)
 - 이전 회고나 다짐글은 블로그 이사하면서 두고 왔다 🥹
 
 약 40편이 조금 넘는 글들을 썼다. 여러 번 언급했지만, 글또를 시작한 이후로 매번 다시 참여하는 데 개인적으로는 큰 고민은 없었다. 하면서 얻어가는 게 항상 명확하기 때문이다. 나는 글 쓰는 거랑 내가 쓴 글 다시 읽는 걸 좋아하는데, 일이나 공부와 관련된 내용은 노력이 좀 들기 때문에 강제성이 없으면 잘 안 쓰게 된다. 그리고 사람을 만나는 기회를 적극적으로 만들지 않는 편인데 다들 알다시피 가만히 있으면 회사 말고는 같은 일을 하는 사람들을 만나기는 어렵다. 글또는 항상 이런 부분들에서 나에게 큰 도움이 되었고, 나한테만 그런 건 아닐 거라 리텐션이 높은 커뮤니티다. 나처럼 몇기수째 계속 참여하시는 분들도 꽤 되는 것 같다. 아무튼 그래서 또 한다는 소리!
@@ -34,16 +34,16 @@ comments: true
     - **수요가 있는 글과 내가 쓰면서 재미있는 글을 적당히 섞자**.
         - 이유: 글을 쓰면 얻을 수 있는 2개 대표적인 보상(재미와 좋은 반응)을 번갈아가며 얻으면서 지속적으로 즐거운 글쓰기를 하기 위해서.
         - 가장 수요가 있는 글의 예시는 (구글 서치 콘솔에 따르면)
-	        - [DBSCAN 이해하기](https://pizza-thief.github.io/posts/dbscan/)
-	        - [LDA (잠재 디리클레 할당) 이해하기](https://pizza-thief.github.io/posts/latent-dirichlet-allocation/)
-	        - [주성분분석과 요인분석의 차이](https://pizza-thief.github.io/posts/pca-and-fa/)
+	        - [DBSCAN 이해하기](https://pizzathiefz.github.io/posts/dbscan/)
+	        - [LDA (잠재 디리클레 할당) 이해하기](https://pizzathiefz.github.io/posts/latent-dirichlet-allocation/)
+	        - [주성분분석과 요인분석의 차이](https://pizzathiefz.github.io/posts/pca-and-fa/)
 		- 주로 베이직한 ML 기법을 쉽게 풀어서 쓴 글들이 유입이 많다. 이건 개인적으로 내가 잘하는 영역이자, 이런 글을 쓰면서 직무와도 직결되는 능력을 얻을 수 있다고 생각하는 편.
 	            - 그리고 [인과추론](https://pizzathief.oopy.io/abb80716-0dee-4559-8aa4-ae2c7d237121)(정작 이 주제로 몇 개의 글을 썼던 옛날옛적보다 최근 인과추론에 대한 관심이 커진 듯)이나 [스파크](https://pizzathief.oopy.io/fc33825e-b9c3-4894-9b9b-889ed37d5680) 관련된 유입도 꾸준히 발생하고 있다.
         - 쓰면서 제일 재미있는 글은 보통 이런 것들 (실용성보단 좀 딴짓에 가까움)
             - 물론 상대적으로 더 재밌단 거고 수요가 있는 글들을 재미 없게 썼다는 건 아니다. 재미 없으면 어차피 쓰다 포기해서 블로그에 못 올라가요..
-	            - [트위터의 이미지 크롭 알고리즘은 뭐가 문제였을까](https://pizza-thief.github.io/posts/twitter-image-cropping-algorithm-bias/)
-	            - [차별하지 않는 분류 모델 만들기](https://pizza-thief.github.io/posts/ai-fairness-tutorial/)
-	            - [Pygame으로 게임 만들어본 후기](https://pizza-thief.github.io/posts/pygame-tutorial/)  
+	            - [트위터의 이미지 크롭 알고리즘은 뭐가 문제였을까](https://pizzathiefz.github.io/posts/twitter-image-cropping-algorithm-bias/)
+	            - [차별하지 않는 분류 모델 만들기](https://pizzathiefz.github.io/posts/ai-fairness-tutorial/)
+	            - [Pygame으로 게임 만들어본 후기](https://pizzathiefz.github.io/posts/pygame-tutorial/)  
     - **테크니컬한 내용 외의 내 경험이나 생각을 드러내는 글을 써보자**.
         - 이유: 그냥 많이 안 해본 영역이라 해 보고 싶음. 글또에서 다른 분들 글을 보다 보면 이런 글들이 제일 멋있어 보임.
         - 평소 일하면서 생각한 내용이나 분석에 대한 고민, 처음으로 리딩을 하면서 겪는 경험 등에 대해 쓸 수도…있고 안 쓸 수도 있고 사실 아직 소재 고민도 안 해봤다.

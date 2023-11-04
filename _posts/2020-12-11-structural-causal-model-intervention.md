@@ -10,7 +10,7 @@ math: true
 toc: true
 comments: true
 ---
-> **이 글은 [Causal Inference in Statistics: A Primer](https://bayes.cs.ucla.edu/PRIMER/)의 4장 내용을 기반으로 작성하였습니다**. 읽기 전에 [인과 추론에서의 그래프 모델 소개](https://pizza-thief.github.io/posts/structural-causal-model-graph/)를 읽고 오시면 쉽습니다.
+> **이 글은 [Causal Inference in Statistics: A Primer](https://bayes.cs.ucla.edu/PRIMER/)의 4장 내용을 기반으로 작성하였습니다**. 읽기 전에 [인과 추론에서의 그래프 모델 소개](https://pizzathiefz.github.io/posts/structural-causal-model-graph/)를 읽고 오시면 쉽습니다.
 {: .prompt-info }
 
 
@@ -21,7 +21,7 @@ comments: true
 
 물론 간단한 방법은 랜덤하게 통제된 실험을 하는 것입니다. 다른 모든 변수를 고정해놓고 한 변수만 바뀌었을 때 어떻게 되는지 보는 것이죠. 물론 위 두 예시 포함 대부분의 케이스에서 실험은 현실적으로 불가능합니다(산불을 일으키는 변수를 어떻게 마음대로 바꾸겠어요? 인간, 특히 아동을 대상으로 한 실험은 허가를 받기까지 윤리적 허들이 꽤 높습니다). 그래서 우리는 이 "**무언가를 하면**"의 효과를 관찰 데이터를 가지고 어떻게든 알아내고자 합니다. 이 "하면"이 바로 오늘 다룰 주제, **개입(intervention)** 입니다.
 
-아래 좌측 그림과 같은 인과 그래프가 있습니다. [이전 글](https://pizza-thief.github.io/posts/causal-inference-introduction/)에서 잠깐 언급했던, 여름에 아이스크림 판매량과 익사자 수가 동시에 올라가는 현상입니다. 또 [이 글](https://pizza-thief.github.io/posts/structural-causal-model-graph/)에 등장하는 전형적인 충돌(collider) 모양 그래프 예시이기도 하죠.
+아래 좌측 그림과 같은 인과 그래프가 있습니다. [이전 글](https://pizzathiefz.github.io/posts/causal-inference-introduction/)에서 잠깐 언급했던, 여름에 아이스크림 판매량과 익사자 수가 동시에 올라가는 현상입니다. 또 [이 글](https://pizzathiefz.github.io/posts/structural-causal-model-graph/)에 등장하는 전형적인 충돌(collider) 모양 그래프 예시이기도 하죠.
 
 - $X$: 아이스크림 판매량
 - $Y$: 익사자 수
