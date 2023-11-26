@@ -19,3 +19,7 @@ package-lock.json
 .vscode
 
 # Misc
+
+#옵시디언
+.obsidian
+_posts/.obsidian
