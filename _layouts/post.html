@@ -78,7 +78,7 @@ tail_includes:
     <!-- .post-meta -->
   </header>
 
-  
+
   <!-- View counts -->
   {% capture url %} https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}
   {% endcapture %}
@@ -87,7 +87,7 @@ tail_includes:
   {% endcapture %}
   {% assign view_img_url = view_img_url | remove: " " %}
   <div class="align-items-right w-100" style="text-align: right; margin-bottom: 1rem;">
-    <img src="{{view_img_url}}" />
+    <img src="{{view_img_url}}" alt="" />
   </div>
 
 
