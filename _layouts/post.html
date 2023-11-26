@@ -79,18 +79,6 @@ tail_includes:
   </header>
 
 
-  <!-- View counts -->
-  {% capture url %} https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}
-  {% endcapture %}
-  {% capture view_img_url %}
-  https://hits.seeyoufarm.com/api/count/incr/badge.svg?url={{url}}&count_bg=%23555555&title_bg=%23555555&icon=opensuse.svg&icon_color=%23E7E7E7&title=views&edge_flat=false
-  {% endcapture %}
-  {% assign view_img_url = view_img_url | remove: " " %}
-  <div class="align-items-right w-100" style="text-align: right; margin-bottom: 1rem;">
-    <img src="{{view_img_url}}" alt="" />
-  </div>
-
-
   <div class="content">
     {{ content }}
   </div>
