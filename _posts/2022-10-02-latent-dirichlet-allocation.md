@@ -16,7 +16,7 @@ image: /assets/img/posts/Yc8umXu.png
 
 ## 잠재
 
-![](/assets/img/posts/2jxYCOS.png){:width="300px"}
+![](/assets/img/posts/2jxYCOS.png){:width="320px"}
 
 잠재란 드러나지 않는다는 뜻입니다. LDA는 우리가 보고 있는 데이터인 **문서**가 숨겨져서 드러나지 않는 어떤 과정의 결과물이라고 가정합니다.
 
