@@ -7,6 +7,7 @@ categories:
 tags:
   - ml
   - anomaly-detection
+  - xai
 math: true
 toc: true
 comments: true
