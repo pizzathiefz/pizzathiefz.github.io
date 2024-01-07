@@ -74,7 +74,7 @@ $\pi$ 의 각 원소는 두 시계열 사이 그은 까만 선이므로, 이를 
 
 ![](/assets/img/dtw-time-series-clustering-3.png)_[(그림 출처)](https://rtavenar.github.io/blog/dtw.html)_
 
-$\pi$ 를 왜 경로라고 부르냐면, 이 선의 집합을 다른 방식으로 생각해 봤을 때 시계열 2개의 길이인 $n$과 $m$만큼 행과 열의 개수를 가지는 행렬로 그려볼 수 있습니다. 이 행렬 $A_{ij}$는 만약 $(i,j)$가 $\pi$ 안에 있으면($x_i$와 $y_j$끼리 선이 그어졌으면)회색으로 칠해주고, 그렇지 않으면 빈 값으로 채운다고 합시다. 그러면 위 그림처럼 행렬의 한쪽 끝에서 다른쪽 끝(규칙 1번에 따라 끝은 꼭 값이 있어야 합니다.)으로 가는 하나의 경로가 그려지는 걸 볼 수 있죠. 
+$\pi$ 를 왜 경로라고 부르냐면, 이 선의 집합을 다른 방식으로 생각해 봤을 때 시계열 2개의 길이인 $n$과 $m$만큼 행과 열의 개수를 가지는 행렬로 그려볼 수 있습니다. 이 행렬 $A_{ij}$는 만약 $(i,j)$가 $\pi$ 안에 있으면($x_i$와 $y_j$끼리 선이 그어졌으면) 회색으로 칠해주고, 그렇지 않으면 빈 값으로 채운다고 합시다. 그러면 위 그림처럼 행렬의 한쪽 끝에서 다른쪽 끝(규칙 1번에 따라 끝은 꼭 값이 있어야 합니다.)으로 가는 하나의 경로가 그려지는 걸 볼 수 있죠. 
 
 왜 굳이 행렬로 그려야 하는데? 라는 질문에 대한 답은 이 경로의 거리 합(비용)이 최소가 되는 걸 **어떻게 찾을 거냐**는 질문과 밀접한 관련이 있습니다.
 
@@ -278,7 +278,7 @@ print(f"{time.time()-st:.4f} sec")
 ```
 
 
-앞부분은 DBSCAN과 똑같고요. [sklearn의 AgglomerativeClustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html)의 `metric` 라는 파라미터에 `precomputed` 를 넣어줍니다. 예전에는 `affinity`라는 파라미터였어서(최신 버전에서는 deprecated됨) 버전에 따라 `affinity`를 써야 할 수도 있습니다. 필수는 아니지만 이 기법도 k-means처럼 `n_clusters`를 지정해줄 수 있구요. 지정하지 않을 경우 군집이 2개가 나오길래(비슷한 라벨1과 3을 합쳐버리더라구요) 저는 이미 정답을 알고 있으므로 3개로 해줬습니다. 주의할 건 `linkage` 파라미터의 디폴트인 `ward` 는 유클리디언 거리에만 쓸 수 있다고 에러메시지가 뜹니다.
+앞부분은 DBSCAN과 똑같고요. [sklearn의 AgglomerativeClustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html)의 `metric` 라는 파라미터에 `precomputed` 를 넣어줍니다. 예전에는 `affinity`라는 파라미터였어서(최신 버전에서는 deprecated됨) 버전에 따라 `affinity`를 써야 할 수도 있습니다. 필수는 아니지만 이 기법도 k-means처럼 `n_clusters`를 지정해줄 수 있구요. 지정하지 않을 경우 군집이 2개가 나오길래(비슷한 라벨2과 3을 합쳐버리더라구요) 저는 이미 정답을 알고 있으므로 3개로 해줬습니다. 주의할 건 `linkage` 파라미터의 디폴트인 `ward` 는 유클리디언 거리에만 쓸 수 있다고 에러메시지가 뜹니다.
 
 시간은 **0.4초** 걸렸습니다!
 
