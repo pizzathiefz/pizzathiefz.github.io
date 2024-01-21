@@ -161,9 +161,9 @@ from pyspark.sql.types import Row
 
 @udtf(returnType= "pizza: string, price: int")
 class HungryButBrokeUDTF:
-	def eval(self, row: Row, balance: int):
-		if row["price"] < balance:
-			yield row["pizza"], row["price"]
+    def eval(self, row: Row, balance: int):
+        if row["price"] < balance:
+            yield row["pizza"], row["price"]
 
 spark.udtf.register("hbb_udtf", HungryButBrokeUDTF)
 
