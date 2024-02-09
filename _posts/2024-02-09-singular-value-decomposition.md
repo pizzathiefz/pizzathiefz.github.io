@@ -69,7 +69,7 @@ _[그림 출처](https://www.askpython.com/python/examples/singular-value-decomp
 
 위 사실들을 생각하면서 특이값분해를 증명해봅시다.
 
-우선 $A^TA$ 부터 보겠습니다. 이 행렬은 고유값분해될 수 있기 때문에, $r$개의 고유값과 그에 상응하는 고유벡터가 존재할 것입니다. 다음과 같은 고유값 $\lambda_i$와 고유벡터 $\mathbf{v}_i$ 가 있다는 것이죠.
+우선 $A^TA$ 부터 보겠습니다. 이 행렬은 고유값분해될 수 있기 때문에, 여러 개의 고유값과 그에 상응하는 고유벡터가 존재할 것입니다. 다음과 같은 고유값 $\lambda_i$와 고유벡터 $\mathbf{v}_i$ 가 있다는 것이죠.
 
 $$A^TA\mathbf{v}_i = \lambda_i\mathbf{v}_i = \sigma_i^2\mathbf{v}_i$$
 이때  $A^TA$ 의 모든 고유값은 0 이상의 값을 가진다는 것을 기억하면, $\lambda_i$는 제곱근을 가질 것이고 그걸 $\sigma_i$라고 써줬습니다.
