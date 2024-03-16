@@ -10,6 +10,7 @@ tags:
 math: true
 toc: true
 comments: true
+image: /assets/img/singular-value-decomposition-3.jpg
 ---
 > 특이값분해(SVD)에 대해 대부분의 선수지식을 포함하여 이해하기 쉽게 설명한 글입니다. SVD의 증명, 기하학적 의미, python으로 이미지 압축하는 예시를 포함하고 있습니다. 제가 이전에 작성한 [고유값분해에 대한 글](https://pizzathiefz.github.io/posts/eigendecomposition-and-pca/)을 읽고 오시거나 어떤 통로로든 고유값분해가 무엇인지를 알고 오시면 좋습니다.
 {: .prompt-info }
