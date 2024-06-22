@@ -19,7 +19,7 @@ comments: true
 이 글을 보고 얻을 수 있는 정보는:
 
 - MLflow 로 ML 실험을 기록하고 싶은데 어떻게 하는지 간단하게 알고 싶다/따라하고 싶다
-    - Pyspark로도 쓰고 싶다 (+Pandas UDF)
+    - Pyspark로도 쓰고 싶다 (+ Pandas UDF)
     - 같은 실험을 그룹별로 나눠서 진행하고 싶다
 
 이 글에서 사용한 것은:
