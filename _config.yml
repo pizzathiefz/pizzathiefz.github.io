@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: pizzathief # the main title
 
-tagline: Data Analyst # it will display as the sub-title
+tagline:  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   data data data
