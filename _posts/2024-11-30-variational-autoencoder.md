@@ -141,6 +141,6 @@ $$z = \mu + \sigma \cdot \epsilon$$
 
 ## 참고
 - 오토인코더의 모든 것 - [강의](https://www.youtube.com/watch?v=o_peo6U7IRM), [슬라이드](https://www.slideshare.net/NaverEngineering/ss-96581209)
-- [VAE 논문]([https://arxiv.org/abs/1312.6114](https://arxiv.org/abs/1312.6114))
+- [VAE 논문](https://arxiv.org/abs/1312.6114)
 - [VAE 설명 (Variational autoencoder란? VAE ELBO 증명)](https://process-mining.tistory.com/161)
 - [변분추론(Variational Inference)](https://ratsgo.github.io/generative%20model/2017/12/19/vi/)
