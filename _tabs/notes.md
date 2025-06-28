@@ -1,5 +1,5 @@
 ---
-layout: redirect2
-icon: fas   fa-rocket
-order: 6
+layout: redirect
+icon: fas   fa-book
+order: 5
 ---
